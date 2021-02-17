@@ -1,0 +1,89 @@
+@media screen and (max-width: 920px){
+    .container{
+        max-width: 700px;
+    }
+
+    .hero__title{
+        font-size: 48px;
+    }
+
+    .genre {
+        padding: 60px 0;
+    }
+
+    .genre__card,
+    .anime__card {
+        width: calc(50% - 10px);
+    }
+
+    .anime {
+        padding-bottom: 60px;
+    }
+
+    .anime__card .anime__meta {
+        margin-bottom: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .anime__more {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .container{
+        max-width: 500px;
+    }
+
+    .header,
+    .hero{
+        min-height: auto;
+    }
+
+    .hero__title{
+        font-size: 35px;
+    }
+
+    .genre__content,
+    .anime__content{
+        justify-content: center;
+    }
+
+    .genre__card,
+    .anime__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero__title{
+        font-size: 32px;
+    }
+
+    .navbar{
+        padding: 10px 0;
+    }
+
+    .navbar__inner{
+        justify-content: center;
+    }
+
+    .navbar__logo--box{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar__logo{
+        font-size: 25px;
+    }
+
+    .navbar__list{
+        justify-content: center;
+    }
+
+    .navbar__link{
+        font-size: 16px;
+    }
+}
